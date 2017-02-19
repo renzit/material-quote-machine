@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Quotes Machine</title>
+     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/style.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+    <main class="purple">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 push-m3 l6 push-l3">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img id="featured-img" src="images/featured/cat.jpg">
+                            <!--<span class="card-title">Random Quote Machine</span>-->
+                            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">share</i></a>
+                        </div>
+                        <div class="card-content">
+                            <p id='quoteDisplay'>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                            <div class="right-align">
+                            <a id="src-img" class="chip" href="#">
+                                    <!--<img  src="images/yuna.jpg" alt="Contact Person">-->
+                                    Example
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer  purple darken-3">
+        <div class="container">
+        <div class="row valign-wrapper">
+            <div class="col l6 s6">
+                <h5 class="white-text">Random Quote Machine</h5>
+            </div>
+            <div class="col l6 s6 right-align">
+                <a class="waves-effect waves-light btn green accent-2 black-text" onclick="newQuote()">New Quote</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script src="js/quotes.js"></script>
+</body>
+
+
+</html>
